@@ -1,6 +1,4 @@
-require "pry"
 class Shoe
-  binding.pry
   attr_accessor :color, :material, :condition, :size
   attr_reader :brand
   def initialize(brand)
