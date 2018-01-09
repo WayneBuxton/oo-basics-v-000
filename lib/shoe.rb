@@ -10,3 +10,4 @@ class Shoe
   end
   @condition
 end
+binding.pry
