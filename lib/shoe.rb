@@ -1,5 +1,6 @@
 require "pry"
 class Shoe
+  binding.pry
   attr_accessor :color, :material, :condition, :size
   attr_reader :brand
   def initialize(brand)
@@ -8,6 +9,4 @@ class Shoe
   def cobble
     puts "Your shoe is as good as new!"
   end
-  @condition
 end
-binding.pry
