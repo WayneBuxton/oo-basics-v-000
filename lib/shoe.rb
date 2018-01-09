@@ -1,3 +1,4 @@
+binding.pry
 class Shoe
   attr_accessor :color, :material, :condition, :size
   attr_reader :brand
@@ -9,4 +10,3 @@ class Shoe
   end
   @condition
 end
-
